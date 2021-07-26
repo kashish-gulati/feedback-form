@@ -38,7 +38,7 @@ app.post('/send',(req,res) => {
             }
             else{
                 res.send({
-                    success:false,
+                    success:true,
                     message: 'Thanks for contacting us. We will get back to you shortly'
                 });
             }
