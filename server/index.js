@@ -45,7 +45,7 @@ app.post('/send',(req,res) => {
         });
     } catch(error){
         res.status(500).send({
-            success:true,
+            success:false,
             message: 'Something went wrong. Try again later'
         });
     }
